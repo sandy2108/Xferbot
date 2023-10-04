@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full relative overflow-hidden text-white">
+    <section className="w-full relative  text-white">
       {/* Bottom Rounded Curve */}
-      <div className="w-full mx-auto py-4 px-2  bg-[#232323] rounded-b-[100px] herobgimage relative">
+      <div className="w-full mx-auto py-4 px-2 min-h-screen overflow-hidden bg-[#232323] rounded-b-[100px] herobgimage relative">
         <div className="max-w-[1340px] md:mt-20 mx-auto">
           <div className="flex items-center justify-center">
             <h1 className="max-w-[920px] md:text-7xl text-5xl py-8 px-3 text-center font-bold text-balance tracking-tight ">
@@ -38,7 +38,15 @@ const Hero = () => {
               />
             </div>
           </div>
+         
+          <div className="flex items-center justify-center overflow-hidden">
+        <Image src="/mk.png" width={1000} height={100} alt="/" />
+        <div className="footer-gradient"></div>
         </div>
+        
+        </div>
+       
+      
       
        
       </div>

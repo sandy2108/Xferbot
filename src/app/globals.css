@@ -19,3 +19,23 @@
     
     
   }
+/* Default styles for larger screens */
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: -1;
+  background: #bdde05;
+  filter: blur(180px);
+}
+
+/* Media query for smaller screens, such as mobile devices */
+@media screen and (max-width: 767px) {
+  .footer-gradient {
+      /* Override styles for smaller screens */
+      width: 200px;
+      left: 30%;
+  }
+}
+
