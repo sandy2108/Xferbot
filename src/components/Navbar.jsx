@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 import { RiMenu5Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
-import Image from 'next/image';
 import { useState } from 'react';
 import { navItems } from '@/constant';
 
