@@ -5,6 +5,7 @@ import { RiMenu5Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react';
 import { navItems } from '@/constant';
+import Image from 'next/image';
 
 const Navbar = () => {
 
@@ -12,16 +13,16 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
   return (
-    <section className='w-full bg-[#232323]'>
-      <div className='max-w-[1340px] mx-auto  p-4'>
+    <section className='w-full'>
+      <div className='max-w-[1300px] mx-auto  p-4'>
         <div className='flex items-center justify-between'>
           {/* Left Section (Title) */}
           <div>
-            <h1 className='text-[#80e956] text-3xl md:text-2xl '>P II B</h1>
+            <Image src="/logo.svg" width={100} height={200} alt="/logo" className='object-cover w-[150px]' />
           </div>
 
           {/* Center Section (Navigation Links) */}
-          <div className='hidden md:flex  items-center justify-center'>
+          <div className='hidden md:flex rounded-3xl border-white border-2 p-2 items-center justify-center'>
             <div className='flex items-center gap-4'>
               {/* Navigation Links */}
               {navItems.map((item, index) => (
@@ -39,8 +40,8 @@ const Navbar = () => {
           {/* Right Section (Button) */}
           <div className='flex ml-10 items-center gap-2 '>
             <Link href='https://www.dextools.io/app/en/ether/pair-explorer/0xb4635f438f8bbf2028f5ab83061f0cae2c2221e5'>
-              <button className='border px-8 py-2 font-normal rounded-full border-0.30 border-[#8da30f] text-[#FFFFFF] '>
-                P2B Bot
+              <button className='border px-8 py-2 font-normal rounded-full border-0.30  border-[#8da30f] text-[#FFFFFF] '>
+                $XFER Bot
               </button>
             </Link>
 

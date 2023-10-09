@@ -3,22 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'SharpGrotesk';
-    src:url('../fonts/SharpGrotesk-Book20.otf') format('opentype');
+    font-family: 'Orbitron-Regular';
+    src:url('../fonts/Orbitron-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
+
+  
   
   /* Set the default font for the entire app */
   body {
-    font-family: 'SharpGrotesk', sans-serif;
+    font-family: 'Orbitron-Regular', sans-serif;
   }
   .herobgimage{
     background-image: url("/bg.png");
-    background-position: center;
-    
-    
+    background-position: center; 
   }
+
+  .gradientbg{
+    background-image: url("/lcbg.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .introbg{
+    background-image: url("/newbg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 /* Default styles for larger screens */
 .footer-gradient {
   position: absolute;
@@ -38,4 +53,5 @@
       left: 30%;
   }
 }
+
 
