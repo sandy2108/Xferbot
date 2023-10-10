@@ -7,14 +7,7 @@ import panda from "../../public/sniper.png";
 
 const Intro = () => {
   const cardData = [
-    {
-      imageSrc: panda,
-      alt: "/",
-      content:
-        "Lightning-fast XFER FUTURES BOT allows you to leverage futures trades with up to 50x leverage on Telegram.",
-      title: "XFER FUTURES BOT",
-      location: "https://t.me/XferFuturesBot",
-    },
+    
     {
       imageSrc: panda,
       alt: "/",
@@ -23,6 +16,14 @@ const Intro = () => {
       title: "XFER PRIVATE PAYMENT BOT",
       location: "https://t.me/XferPrivatePaybot",
     },
+    {
+      imageSrc: panda,
+      alt: "/",
+      content:
+        "Lightning-fast XFER FUTURES BOT allows you to leverage futures trades with up to 50x leverage on Telegram.",
+      title: "XFER FUTURES BOT",
+      location: "https://t.me/XferFuturesBot",
+    }
   ];
 
   return (

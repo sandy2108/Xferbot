@@ -32,7 +32,13 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  
+  .utilities {
+    background-image: url("/ut.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
 
 /* Default styles for larger screens */
 .footer-gradient {
@@ -54,4 +60,16 @@
   }
 }
 
+/* Security.css */
+
+/* Glassmorphism background styles */
+.glassmorphism {
+  background: rgba(14, 12, 12, 0.15); /* Set the background color with transparency */
+  border-radius: 15px; /* Adjust border radius as needed */
+  backdrop-filter: blur(5px); /* Apply a blur effect */
+  border: 1px solid rgba(0, 0, 0, 0.18); /* Add a border for contrast */
+  padding: 20px; /* Add padding to content within the glassmorphism container */
+}
+
+/* Add more specific styles as needed for your components */
 
