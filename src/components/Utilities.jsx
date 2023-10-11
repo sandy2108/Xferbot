@@ -27,7 +27,7 @@ const Security = () => {
   return (
     <div className="w-full min-h-screen utilities">
       <div className="max-w-[1340px] mx-auto p-4">
-        <div className="mt-20  glassmorphism text-white">
+        <div className="mt-20 glassmorphism text-white ">
           <div className=" flex items-center justify-center rounded-3xl flex-wrap overflow-hidden border-2 border-[#e7e7e7] md:h-[700px] m-auto">
             <div className="w-full h-full ">
               <div className="max-w-[1240px] mx-auto p-4">

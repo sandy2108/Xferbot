@@ -8,7 +8,7 @@ export const navItems = [
         link:'/',
     },
     {
-        title:'Revenue share',
+        title:'Revenueshare',
         link:'/',
     },
     {
@@ -24,6 +24,30 @@ export const navItems = [
    
 ]
 
+export const featuresData = [
+    {
+      title: "SPACE FUTURES BOT",
+      imageSrc: "/trade.svg",
+      arrowSrc: "/blankarrow.svg",
+      description:
+        "Lightning-fast XFER FUTURES BOT allows you to leverage futures trades with up to 50x leverage on Telegram.",
+    },
+    {
+      title: "PRIVATE PAYMENT",
+      imageSrc: "/Private.svg",
+      arrowSrc: "/blankarrow.svg",
+      description:
+        "Telegram private payment offers a bot that sends money privately and anonymously without revealing your address.",
+    },
+    {
+      title: "SPACEBRIDGE BOT",
+      imageSrc: "/Bridge.svg",
+      arrowSrc: "/blankarrow.svg",
+      description:
+        "Space Bridge Bot moves your funds without a requirement to connect your wallet.",
+    },
+  ];
+  
 
 
 
